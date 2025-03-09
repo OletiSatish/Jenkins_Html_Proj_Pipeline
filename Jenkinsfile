@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/OletiSatish/Jenkins_Html_Proj_Pipelinee.git'
+                git 'https://github.com/OletiSatish/Jenkins_Html_Proj_Pipeline.git'
             }
         }
 
@@ -30,3 +30,4 @@ pipeline {
         }
     }
 }
+
