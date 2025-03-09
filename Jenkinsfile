@@ -1,10 +1,10 @@
 pipeline {
-    agent any  // Runs on any available Jenkins agent
+    agent any 
 
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/my-html-project.git'
+                git 'https://github.com/OletiSatish/Jenkins_Html_Proj_Pipelinee.git'
             }
         }
 
